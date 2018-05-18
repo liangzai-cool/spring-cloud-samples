@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-cloud-eureka-feign-consumer
+
+server:
+  port: 8081
+
+management:
+  context-path: /admin
+
+eureka:
+  instance:
+    statusPageUrlPath: ${management.context-path}/swagger-ui.html

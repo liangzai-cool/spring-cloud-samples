@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-cloud-eureka-consumer
+
+server:
+  port: 8081
+
+eureka:
+  instance:
+    statusPageUrl: //${eureka.hostname}:{server.port}/docs/swigger-ui.html

@@ -1,0 +1,50 @@
+group 'org.xueliang.spring.cloud'
+version '1.0-SNAPSHOT'
+
+
+buildscript {
+    repositories {
+        maven { url 'https://repo1.xueliang.org/repository/maven-public/'}
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.4.3.RELEASE")
+    }
+}
+
+apply plugin: 'spring-boot'
+apply plugin: 'idea'
+
+repositories {
+    maven { url 'https://repo1.xueliang.org/repository/maven-public/'}
+}
+
+//子模块配置
+subprojects {
+
+    apply plugin: 'java'
+    apply plugin: 'spring-boot'
+    apply plugin: 'idea'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    compileJava.options.encoding = "UTF-8"
+    compileTestJava.options.encoding = "UTF-8"
+
+    repositories {
+        mavenLocal()
+        maven { url 'https://repo1.xueliang.org/repository/maven-public/'}
+    }
+
+    //配置依赖
+    dependencies {
+        // 需要测试的话再依赖
+//        testCompile 'org.springframework.boot:spring-boot-starter-test'
+    }
+
+    dependencyManagement {
+        imports {
+            mavenBom "org.springframework.cloud:spring-cloud-dependencies:Camden.SR7"
+        }
+    }
+}

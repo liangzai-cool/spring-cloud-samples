@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-cloud-eureka-client
+
+server:
+  port: 8080
+
+management:
+  context-path: /admin
+
+eureka:
+  instance:
+    statusPageUrlPath: ${management.context-path}/swagger-ui.html
+    healthCheckUrl: https://${eureka.hostname}/healthx
+    homePageUrl: https://${eureka.hostname}/x

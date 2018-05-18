@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: spring-cloud-consul-consumer
+  cloud:
+    # 服务注册中心相关信息
+    consul:
+      host: localhost
+      port: 8500

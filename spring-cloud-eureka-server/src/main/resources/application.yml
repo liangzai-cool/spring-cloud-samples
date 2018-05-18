@@ -1,0 +1,10 @@
+server:
+  # 服务注册中心端口号
+  port: 8761
+
+eureka:
+  client:
+    # 是否向服务注册中心注册自己
+    register-with-eureka: false
+    # 是否检索服务
+    fetch-registry: false

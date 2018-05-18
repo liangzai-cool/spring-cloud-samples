@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-consul-client_main" target="1.8" />
+      <module name="spring-cloud-consul-client_test" target="1.8" />
+      <module name="spring-cloud-consul-consumer_main" target="1.8" />
+      <module name="spring-cloud-consul-consumer_test" target="1.8" />
+      <module name="spring-cloud-eureka-client_main" target="1.8" />
+      <module name="spring-cloud-eureka-client_test" target="1.8" />
+      <module name="spring-cloud-eureka-consumer_main" target="1.8" />
+      <module name="spring-cloud-eureka-consumer_test" target="1.8" />
+      <module name="spring-cloud-eureka-feign-consumer_main" target="1.8" />
+      <module name="spring-cloud-eureka-feign-consumer_test" target="1.8" />
+      <module name="spring-cloud-eureka-ribbon-consumer_main" target="1.8" />
+      <module name="spring-cloud-eureka-ribbon-consumer_test" target="1.8" />
+      <module name="spring-cloud-eureka-server_main" target="1.8" />
+      <module name="spring-cloud-eureka-server_test" target="1.8" />
+      <module name="spring-cloud-ribbon-eureka-consumer_main" target="1.8" />
+      <module name="spring-cloud-ribbon-eureka-consumer_test" target="1.8" />
+      <module name="spring-cloud-ribbon-eureka-server_main" target="1.8" />
+      <module name="spring-cloud-ribbon-eureka-server_test" target="1.8" />
+      <module name="spring-cloud-samples_main" target="1.8" />
+      <module name="spring-cloud-samples_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
