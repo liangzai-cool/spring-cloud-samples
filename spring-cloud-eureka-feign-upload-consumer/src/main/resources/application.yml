@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: spring-cloud-eureka-feign-upload-consumer
+
+server:
+  port: 8084
+
+management:
+  context-path: /admin
+
+eureka:
+  instance:
+    statusPageUrlPath: ${management.context-path}/swagger-ui.html
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000

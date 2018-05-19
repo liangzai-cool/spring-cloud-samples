@@ -6,4 +6,6 @@ include 'spring-cloud-eureka-ribbon-consumer'
 include 'spring-cloud-consul-consumer'
 include 'spring-cloud-consul-client'
 include 'spring-cloud-eureka-feign-consumer'
+include 'spring-cloud-eureka-feign-upload-client'
+include 'spring-cloud-eureka-feign-upload-consumer'
 

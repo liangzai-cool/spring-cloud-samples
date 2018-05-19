@@ -12,6 +12,10 @@
       <module name="spring-cloud-eureka-consumer_test" target="1.8" />
       <module name="spring-cloud-eureka-feign-consumer_main" target="1.8" />
       <module name="spring-cloud-eureka-feign-consumer_test" target="1.8" />
+      <module name="spring-cloud-eureka-feign-upload-client_main" target="1.8" />
+      <module name="spring-cloud-eureka-feign-upload-client_test" target="1.8" />
+      <module name="spring-cloud-eureka-feign-upload-consumer_main" target="1.8" />
+      <module name="spring-cloud-eureka-feign-upload-consumer_test" target="1.8" />
       <module name="spring-cloud-eureka-ribbon-consumer_main" target="1.8" />
       <module name="spring-cloud-eureka-ribbon-consumer_test" target="1.8" />
       <module name="spring-cloud-eureka-server_main" target="1.8" />

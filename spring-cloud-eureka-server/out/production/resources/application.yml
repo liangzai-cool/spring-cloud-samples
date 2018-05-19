@@ -8,4 +8,3 @@ eureka:
     register-with-eureka: false
     # 是否检索服务
     fetch-registry: false
-  instance:

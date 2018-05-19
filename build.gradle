@@ -39,7 +39,7 @@ subprojects {
     //配置依赖
     dependencies {
         // 需要测试的话再依赖
-//        testCompile 'org.springframework.boot:spring-boot-starter-test'
+        testCompile 'org.springframework.boot:spring-boot-starter-test'
     }
 
     dependencyManagement {
