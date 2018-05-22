@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-spring-cloud-samples.iml" filepath="$PROJECT_DIR$/.idea/modules/my-spring-cloud-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-config-client.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-config-client.iml" group="spring-cloud-config-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-config-client/spring-cloud-config-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-config-client/spring-cloud-config-client_main.iml" group="spring-cloud-config-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-config-client/spring-cloud-config-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-config-client/spring-cloud-config-client_test.iml" group="spring-cloud-config-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-config-server.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-config-server.iml" group="spring-cloud-config-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-config-server/spring-cloud-config-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-config-server/spring-cloud-config-server_main.iml" group="spring-cloud-config-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-config-server/spring-cloud-config-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-config-server/spring-cloud-config-server_test.iml" group="spring-cloud-config-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-consul-client/spring-cloud-consul-client.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-consul-client/spring-cloud-consul-client.iml" group="spring-cloud-consul-client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-consul-client/spring-cloud-consul-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-consul-client/spring-cloud-consul-client_main.iml" group="spring-cloud-consul-client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-consul-client/spring-cloud-consul-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-consul-client/spring-cloud-consul-client_test.iml" group="spring-cloud-consul-client" />

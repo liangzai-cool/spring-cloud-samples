@@ -1,0 +1,18 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    # 服务注册中心相关信息
+    config:
+      server:
+        git:
+          uri: git@gitlab.com:liangzai_cool/config-repo-{application}.git
+
+management:
+  context-path: /admin
+
+eureka:
+  instance:
+    statusPageUrlPath: ${management.context-path}/swagger-ui.html
