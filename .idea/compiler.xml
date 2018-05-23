@@ -24,6 +24,8 @@
       <module name="spring-cloud-eureka-feign-upload-consumer_test" target="1.8" />
       <module name="spring-cloud-eureka-ribbon-consumer_main" target="1.8" />
       <module name="spring-cloud-eureka-ribbon-consumer_test" target="1.8" />
+      <module name="spring-cloud-eureka-ribbon-hystrix-consumer_main" target="1.8" />
+      <module name="spring-cloud-eureka-ribbon-hystrix-consumer_test" target="1.8" />
       <module name="spring-cloud-eureka-server_main" target="1.8" />
       <module name="spring-cloud-eureka-server_test" target="1.8" />
       <module name="spring-cloud-ribbon-eureka-consumer_main" target="1.8" />

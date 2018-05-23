@@ -1,9 +1,8 @@
+server:
+  port: 8088
 spring:
   application:
-    name: spring-cloud-eureka-client
-
-server:
-  port: 8080
+    name: spring-cloud-eureka-ribbon-hystrix-consumer
 
 management:
   context-path: /admin

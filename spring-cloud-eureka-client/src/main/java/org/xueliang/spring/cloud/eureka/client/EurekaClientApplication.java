@@ -17,7 +17,8 @@ public class EurekaClientApplication {
     }
 
     @RequestMapping("/client")
-    public String client() {
+    public String client() throws  InterruptedException {
+//        Thread.sleep(5000L);  // 用于测试 spring-cloud-eureka-ribbon-hystrix-consumer 模块
         return "Data From Client";
     }
 }

@@ -9,23 +9,23 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-eureka-server:1.2.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-ribbon:1.2.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-archaius:1.2.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter:1.1.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-server:1.2.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-eureka-server:1.2.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-ribbon:1.2.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-archaius:1.2.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter:1.1.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-server:1.2.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.netflix.ribbon:ribbon-eureka:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-freemarker:1.4.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.4.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.4.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:1.4.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-context:1.1.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-commons:1.1.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-context:1.1.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-commons:1.1.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-rsa:1.0.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.2.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-core:1.2.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: com.netflix.eureka:eureka-core:1.4.11" level="project" />
-    <orderEntry type="library" name="Gradle: com.netflix.eureka:eureka-client:1.4.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.2.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-core:1.2.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.eureka:eureka-core:1.4.12" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.eureka:eureka-client:1.4.12" level="project" />
     <orderEntry type="library" name="Gradle: com.sun.jersey:jersey-servlet:1.19.1" level="project" />
     <orderEntry type="library" name="Gradle: com.sun.jersey:jersey-server:1.19.1" level="project" />
     <orderEntry type="library" name="Gradle: com.netflix.ribbon:ribbon:2.2.0" level="project" />
@@ -48,12 +48,13 @@
     <orderEntry type="library" name="Gradle: com.thoughtworks.xstream:xstream:1.4.9" level="project" />
     <orderEntry type="library" name="Gradle: commons-configuration:commons-configuration:1.8" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-actuator:1.4.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-ec2:1.11.18" level="project" />
-    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-autoscaling:1.11.18" level="project" />
-    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-sts:1.11.18" level="project" />
-    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-route53:1.11.18" level="project" />
-    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-core:1.11.18" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-ec2:1.11.83" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-autoscaling:1.11.83" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-sts:1.11.83" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-route53:1.11.83" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-java-sdk-core:1.11.83" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:jmespath-java:1.11.83" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.5" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.5" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.5" level="project" />
@@ -116,6 +117,7 @@
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.1" level="project" />
     <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
     <orderEntry type="library" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Gradle: software.amazon.ion:ion-java:1.0.1" level="project" />
     <orderEntry type="library" name="Gradle: joda-time:joda-time:2.7" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm:5.0.4" level="project" />
     <orderEntry type="library" name="Gradle: javax.xml.stream:stax-api:1.0-2" level="project" />
