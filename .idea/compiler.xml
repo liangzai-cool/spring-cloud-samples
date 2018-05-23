@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="spring-cloud-config-client_main" target="1.8" />
       <module name="spring-cloud-config-client_test" target="1.8" />
+      <module name="spring-cloud-config-refreshable-client_main" target="1.8" />
+      <module name="spring-cloud-config-refreshable-client_test" target="1.8" />
       <module name="spring-cloud-config-server_main" target="1.8" />
       <module name="spring-cloud-config-server_test" target="1.8" />
       <module name="spring-cloud-consul-client_main" target="1.8" />

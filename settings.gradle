@@ -10,4 +10,5 @@ include 'spring-cloud-consul-consumer'
 include 'spring-cloud-consul-client'
 include 'spring-cloud-config-server'
 include 'spring-cloud-config-client'
+include 'spring-cloud-config-refreshable-client'
 

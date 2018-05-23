@@ -1,0 +1,1 @@
+# 使用 Spring Cloud Config 和 Spring Boot Actuator 实现配置客户端，从注册中心获取配置中心地址，然后请求配置中心获取配置数据，当配置数据更改后，可以通过/refresh接口重新获取数据
