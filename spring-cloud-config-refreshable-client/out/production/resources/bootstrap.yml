@@ -1,8 +1,0 @@
-spring:
-  cloud:
-    config:
-#      uri: http://localhost:8085/ # config-server的地址
-# 这里我们采用从服务注册中心来获取 config-server 的地址，当 config-server 地址调整时，不需要再修改这里的配置
-      discovery:
-        enabled: true # 开启通过服务来访问 config-server 的功能
-        service-id: spring-cloud-config-server
