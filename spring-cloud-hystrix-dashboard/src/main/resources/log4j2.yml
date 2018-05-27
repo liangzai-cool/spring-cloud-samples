@@ -1,0 +1,21 @@
+Configuration:
+  status: warn
+  name: YAMLConfig
+  properties:
+    property:
+      name: project.name
+      value: spring-cloud-hystrix-dashboard
+    property:
+      name: pattern
+      value: "%d %-5p [%c]\\: %L - %m%n"
+  appenders:
+    Console:
+      name: STDOUT
+      PatternLayout:
+        Pattern: ${pattern}
+
+  Loggers:
+    Root:
+      level: debug
+      AppenderRef:
+        ref: STDOUT

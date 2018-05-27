@@ -12,4 +12,5 @@ include 'spring-cloud-config-server'
 include 'spring-cloud-config-client'
 include 'spring-cloud-config-refreshable-client'
 include 'spring-cloud-eureka-ribbon-hystrix-consumer'
+include 'spring-cloud-hystrix-dashboard'
 
