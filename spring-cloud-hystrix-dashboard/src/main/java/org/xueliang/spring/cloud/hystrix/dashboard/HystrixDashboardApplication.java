@@ -11,8 +11,6 @@ import org.springframework.web.client.RestTemplate;
 
 
 @SpringBootApplication
-@EnableCircuitBreaker
-@EnableDiscoveryClient
 @EnableHystrixDashboard
 public class HystrixDashboardApplication {
 
