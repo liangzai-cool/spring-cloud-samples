@@ -1,5 +1,8 @@
 server:
   port: 8085
+  servlet:
+    context-path: "" # 应用的上下文路径
+
 spring:
   application:
     name: spring-cloud-config-server
@@ -10,9 +13,6 @@ spring:
         git:
           uri: git@gitlab.com:liangzai_cool/config-repo-{application}.git
 
-management:
-  context-path: /admin
-
 eureka:
   instance:
-    statusPageUrlPath: ${management.context-path}/swagger-ui.html
+    statusPageUrlPath: ${server.servlet.context-path}/swagger-ui.html

@@ -1,5 +1,8 @@
 server:
   port: 8086
+  servlet:
+    context-path: "" # 应用的上下文路径
+
 spring:
   application:
     name: spring-cloud-config-client
@@ -9,9 +12,6 @@ spring:
       profile: development
       label: master
 
-management:
-  context-path: /admin
-
 eureka:
   instance:
-    statusPageUrlPath: ${management.context-path}/swagger-ui.html
+    statusPageUrlPath: ${server.servlet.context-path}/swagger-ui.html

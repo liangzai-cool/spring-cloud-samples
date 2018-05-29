@@ -4,10 +4,10 @@ spring:
 
 server:
   port: 8081
+  servlet:
+    context-path: "" # 应用的上下文路径
 
-management:
-  context-path: /admin
 
 eureka:
   instance:
-    statusPageUrlPath: ${management.context-path}/swagger-ui.html
+    statusPageUrlPath: ${server.servlet.context-path}/swagger-ui.html
