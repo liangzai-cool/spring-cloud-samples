@@ -1,0 +1,11 @@
+group 'org.xueliang.spring.cloud'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    compile 'org.springframework.cloud:spring-cloud-starter-eureka'
+    compile 'org.springframework.cloud:spring-cloud-starter-ribbon'
+    compile 'org.springframework.cloud:spring-cloud-starter-hystrix'
+    compile 'org.springframework.cloud:spring-cloud-netflix-hystrix-amqp'
+    compile 'org.springframework.amqp:spring-amqp:1.7.2.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-actuator'
+}

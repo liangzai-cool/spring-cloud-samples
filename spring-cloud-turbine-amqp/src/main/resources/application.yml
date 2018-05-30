@@ -1,0 +1,8 @@
+server:
+  port: 8092
+  servlet:
+    context-path: "" # 应用的上下文路径
+
+spring:
+  application:
+    name: spring-cloud-turbine-amqp

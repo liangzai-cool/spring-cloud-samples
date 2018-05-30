@@ -1,0 +1,17 @@
+server:
+  port: 8091
+  servlet:
+    context-path: "" # 应用的上下文路径
+
+spring:
+  application:
+    name: spring-cloud-eureka-ribbon-hystrix-amqp-consumer
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+eureka:
+  instance:
+    statusPageUrlPath: ${server.servlet.context-path}/swagger-ui.html

@@ -1,0 +1,13 @@
+server:
+  port: 8090
+  servlet:
+    context-path: "" # 应用的上下文路径
+
+spring:
+  application:
+    name: spring-cloud-turbine-http
+
+turbine:
+  app-config: spring-cloud-eureka-ribbon-hystrix-consumer
+  cluster-name-expression: new String('default')
+  turbine.combine-host-port: true

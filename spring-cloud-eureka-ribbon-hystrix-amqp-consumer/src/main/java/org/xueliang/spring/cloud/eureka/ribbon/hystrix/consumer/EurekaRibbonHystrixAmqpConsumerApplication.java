@@ -1,0 +1,24 @@
+package org.xueliang.spring.cloud.eureka.ribbon.hystrix.consumer;
+
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.cloud.client.SpringCloudApplication;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
+
+//@SpringBootApplication
+//@EnableDiscoveryClient
+//@EnableCircuitBreaker
+@SpringCloudApplication // 可以使用该注解，替换以上三个注解
+public class EurekaRibbonHystrixAmqpConsumerApplication {
+
+    @Bean
+    @LoadBalanced
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
+
+    public static void main(String[] args) {
+        new SpringApplicationBuilder(EurekaRibbonHystrixAmqpConsumerApplication.class).web(true).run(args);
+    }
+}
